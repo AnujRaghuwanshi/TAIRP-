@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/39cb4c357a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/LOGO.png" width="150px" height="70px" class="logo">
+            <ul id="sidemenu">
+                <li><a  href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+            </ul>
+            
+        </nav>
+        <div class="header-text">
+            <p>Computer Science Apprentice</p>
+            <h1>Hi, I'm <span>Anuj Raghuwanshi</span> </h1>
+        </div>
+    </div>
+    <!----------about-------------->
+</div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/my.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        This is Anuj Raghuwanshi.
+                        An extrovert person hailing form village Rani Pipariya,district Narmadapuram,MP.
+                        A determined CSE student currently learning at Sagar Institute of Science and Technology.
+                        Online resources, coding challenges, and personal projects are all part of my learning toolkit. 
+                        I am an enthusiastic coder, always looking for opportunities to practice and improve your skills.  
+                        I understand the value of both theoretical understanding and practical application in computer science.
+                        I'm a dedicated computer science student with a strong passion for learning and exploring new concepts.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Education</p>
+                      
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>2020</span><br><br>10th from BIS Pipariya.</li>
+                           <li><span>2022</span><br><br>12th from BIS Pipariya.</li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------skills----------------------->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+               <img src="images/C.png" width="370px" height="400px" id="c">
+           </div>
+           <div>
+            <i class="fa-solid fa-crop-simple"></i>
+             <img src="images/C++.png" width="370px" height="400px" id="C">
+         </div>
+       <div>
+        <i class="fa-brands fa-app-store"></i>
+       <img src="images/Edu.png"  width="370px" height="400px" id="Edu">
+      </div>
+        </div>
+    </div>
+</div>
+   
+<div class="content">
+<h1 style="text-decoration: underline; color:  #b54769;">Skills Reflects Our Knowledge</h1><br>
+<br><br> <div class="cont">
+ 
+     <div class="progress-container">
+         <h4>HTML</h4>
+         <div class="progress-bar">
+             <span data-width="80%"></span>
+         </div>
+     </div><br>
+     <div class="progress-container">
+         <h4>CSS</h4>
+         <div class="progress-bar">
+             <span data-width="65%"></span>
+         </div>
+     </div><br>
+     <div class="progress-container">
+         <h4>JavaScript</h4>
+         <div class="progress-bar">
+             <span data-width="45%"></span>
+         </div>
+     </div><br>
+     <div class="progress-container">
+         <h4>C</h4>
+         <div class="progress-bar">
+             <span data-width="60%"></span>
+         </div>
+     </div><br>
+     <div class="progress-container">
+         <h4>C++</h4>
+         <div class="progress-bar">
+             <span data-width="45%"></span>
+         </div>
+     </div>
+ </div>
+<!----------------------------contact--------------->
+
+<section class="contact" id="contact"><div class="content">
+    <div class="sub-title"><span>Contact Me</span></div>
+</section>
+ <section class="contact1">
+    <div class="contact1-header">
+    
+      <h2 id="co-text">Reach out to me!</h2>
+    </div>
+    
+    <div class="contact1-content">
+      <div class="contact1-form">
+        <h3 id="form-title">Send me a message</h3>
+      <form action=" " method="post" enctype="text/plain">
+        <fieldset>
+          <div class="form-field">
+            <input name="name" type="text" id="name" placeholder="Your Name"></input>
+          </div>
+        <div class="form-field">
+            <input name="email" type="email" id="email" placeholder="Your Email"></input>
+          </div>
+        <div class="form-field">
+            <input name="Subject" type="text" id="subject" placeholder="Subject"></input>
+          </div>
+      <div class="form-field">
+            <textarea name="message" type="text" id="message" placeholder="Your Message"></textarea>
+          </div>
+        </fieldset>
+    <input id="form-btn" type="submit" value="send">
+      </form>
+  </div>
+    
+      <div class="contact1-info">
+        <h3>Email Me At </h3>
+        <a href=" "><p>anujraghuwanshi147@gmail.com</p></a>
+        <h3>Find Me On </h3>
+        <div class="contact1-links">
+          <a href="https://www.linkedin.com/in/anuj-raghuwanshi-b98860260"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/AnujRaghuwanshi"><i class="fab fa-github"></i></a>
+         
+        </div>
+      </div>
+      </div>
+  </section>
+
+  <div class="copyright">
+    <p>Copyright <i class="fa-solid fa-copyright"></i> 2023 Anuj.</p>
+  </div>
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+
+</script>
+
+
+<script type="text/JavaScript" src="JS/port.js"></script>
+</body>
+</html>
